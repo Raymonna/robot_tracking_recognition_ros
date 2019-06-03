@@ -1,0 +1,8 @@
+git clone ...
+roscore
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+roslaunch Iiornfish_gazebo ironfish_gazebo.launch 
+
+rosrun simple_controller controller.py
+(if needed, source..., chmod +x ...)
